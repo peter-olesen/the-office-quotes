@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.appContainer {
+  height: 100vh;
+  width: 100vw;
+}
+.appContainer .appTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.appContainer .appTop .logo {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 1rem;
+  background: white;
+}
+.appContainer .appTop .appMenu {
+  width: 100%;
+}
+.appContainer .appTop .appMenu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  background: darkgrey;
+  padding: 1rem 0;
+}
+.appContainer .appTop .appMenu ul li {
+  font-weight: bold;
+}
+.appContainer .app {
+  text-align: center;
+  margin: auto;
+  width: 90vw;
+}
+.appContainer .app h2 {
+  margin: 0;
+}
+.appContainer .app button {
+  border: solid 2px black;
+  background: white;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+}
