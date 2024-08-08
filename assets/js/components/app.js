@@ -30,7 +30,7 @@ menu.innerHTML = `
                     <ul>
                         <li id="app-start">QUOTES!</li>
                         <li id="api-info">INFO</li>
-                        </ul>
+                    </ul>
                 `;
 top.append(menu);
 
